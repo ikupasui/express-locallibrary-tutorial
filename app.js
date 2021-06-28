@@ -12,7 +12,7 @@ var app = express();
 
 //Set up mongoose connection
 var mongoose = require('mongoose');
-var mongoDB = 'mongodb+srv://ikupasui:MerZpbIwIzpmpNkZ@cluster0.tidwi.mongodb.net/test?retryWrites=true&w=majority';
+var mongoDB = 'mongodb+srv://';
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
